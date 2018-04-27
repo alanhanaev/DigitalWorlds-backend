@@ -1,6 +1,6 @@
 ### Метод добавления поста
 
-URL: "http://localhost:3000/post" <br />
+URL: "http://localhost/post" <br />
 Method: "PUT" <br />
 Json params: 
 ```
@@ -30,7 +30,7 @@ Response:
 
 ### Метод добавления комментария к посту
 
-URL: "http://localhost:3000/comment"<br />
+URL: "http://localhost/comment"<br />
 Method: "PUT"<br />
 Json params: 
 ```
@@ -62,7 +62,7 @@ Response:
 
 ### Метод получения списка всех постов
 
-URL: "http://localhost:3000/posts"<br />
+URL: "http://localhost/posts"<br />
 Method: "GET"<br />
 Response: 
 ```
@@ -120,7 +120,7 @@ Response:
 
 ### Метод получения одного поста с комментариями
 
-URL: "http://localhost:3000/post?post_id=45434"<br />
+URL: "http://localhost/post?post_id=45434"<br />
 Method: "GET"<br />
 Response: 
 ```
@@ -156,7 +156,7 @@ Response:
 
 
 ### Метод получения списка всех постов
-URL: "http://localhost:3000/comments"<br />
+URL: "http://localhost/comments"<br />
 Method: "GET"<br />
 URL params: 
 ```
