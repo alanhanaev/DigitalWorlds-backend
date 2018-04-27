@@ -32,11 +32,14 @@ Response:
 
 URL: "http://localhost:3000/comment"<br />
 Method: "PUT"<br />
-Json params: {
+Json params: 
+```
+{
 	"name":"Vasia",
 	"text": "Hello ! This is my first comment ",
-    "post_id": 2
+    	"post_id": 2
 }
+```
 Response: 
 ```
 {
